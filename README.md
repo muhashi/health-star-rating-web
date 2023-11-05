@@ -1,38 +1,13 @@
-# create-svelte
+# Health Star Rating Calculator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+![image](https://github.com/muhashi/health-star-rating-web/assets/105213357/e0f01add-3dea-4c09-a374-a181d0bae89b)
 
-## Creating a project
+Calculates the [health star rating](https://en.wikipedia.org/wiki/Health_Star_Rating_System) of foods, and also provides an explanation of how the rating was determined. Information adapted from the Australian Government's [Health Star Rating System Calculator and Style Guide](http://healthstarrating.gov.au/internet/healthstarrating/publishing.nsf/Content/E380CCCA07E1E42FCA257DA500196044/$File/HSR%20System%20Calculator%20and%20Style%20Guide%20v8.pdf).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Running
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Clone the repo, run `npm install`, and then `npm run dev`. `npm run build` to build codebase. Written in Svelte using Carbon Components Svelte for UI. 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Disclaimer
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This is not affiliated with the Australian / New Zealand Government and should only be used for educational purposes.
