@@ -233,7 +233,7 @@
     $: if (baselinePoints >= 13 && percentageFruitVegetableNutLegumePoints < 5) {
         proteinRange = [];
     } else if (Category1D(category) || Category2(category) || Category2D(category) || Category3(category) || Category3D(category)) {
-        proteinRange = [1.6, 3.2, 4.8, 6.4, 8, 9.6, 11.6, 13.9, 16.7, 20, 24, 28.9, 34.7, 41.6, 50];
+        proteinRange = [1.6, 3.1, 4.8, 6.4, 8, 9.6, 11.6, 13.9, 16.7, 20, 24, 28.9, 34.7, 41.6, 50];
     } else {
         proteinRange = [];
     }
