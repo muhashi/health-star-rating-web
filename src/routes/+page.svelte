@@ -5,6 +5,7 @@
     import {
         Form,
         FormGroup,
+        Link,
         NumberInput,
         OutboundLink,
         Select,
@@ -14,6 +15,7 @@
         Accordion, AccordionItem, UnorderedList, ListItem,
     } from "carbon-components-svelte";
     import StarRating from 'svelte-star-rating';
+    import LogoGithub from "carbon-icons-svelte/lib/LogoGithub.svelte"
 
   
     // theme = "white" | "g10" | "g80" | "g90" | "g100"
@@ -281,9 +283,15 @@
 </script>
   
 <div class="page">
-    <div class="title">
-        <h1>Health Star Rating Calculator</h1>
-        <p>Calculate and explain the <OutboundLink href="http://healthstarrating.gov.au/">Australian/New Zealand health star ratings</OutboundLink> of food.</p>
+    <div class="header-row">
+        <div style="width: 32px"></div> <!-- dummy for spacing -->
+        <div class="title">
+                <h1>Health Star Rating Calculator</h1>
+            <p>Calculate and explain the <OutboundLink href="http://healthstarrating.gov.au/">Australian/New Zealand health star ratings</OutboundLink> of food.</p>
+        </div>
+        <Link href="https://github.com/muhashi/health-star-rating-web" target="_blank" style="color: black">
+            <LogoGithub size={32} />
+        </Link>
     </div>
     <div class="calculator">
         <Form on:submit={(e) => {
@@ -525,6 +533,19 @@
 
     h1, .title > p, .disclaimer > p {
         text-align: center;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .header-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
     }
 
     .calculator {

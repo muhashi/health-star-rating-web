@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-static": "^3.0.1",
 		"@sveltejs/kit": "^2.5.6",
 		"carbon-components-svelte": "^0.85.0",
+		"carbon-icons-svelte": "^12.6.0",
 		"svelte": "^4.2.15",
 		"svelte-star-rating": "^2.0.1",
 		"vite": "^5.2.9"
