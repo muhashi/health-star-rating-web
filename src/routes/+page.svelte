@@ -516,6 +516,9 @@
         <p>
             Disclaimer: This website is not affiliated with the Australian / New Zealand Government and should only be used for educational purposes.
         </p>
+        <p>
+            Information adapted from Version 8 of the ANZ Government's <OutboundLink size="sm" href="https://web.archive.org/web/20240401093020/http://healthstarrating.gov.au/internet/healthstarrating/publishing.nsf/Content/E380CCCA07E1E42FCA257DA500196044/$File/HSR%20System%20Calculator%20and%20Style%20Guide%20v8.pdf">Health Star Rating Calculator and Style Guide</OutboundLink>.
+        </p>
         <p>Website by <OutboundLink size="sm" href="https://muhashi.com">muhashi</OutboundLink>.</p>
     </div>
 </div>
