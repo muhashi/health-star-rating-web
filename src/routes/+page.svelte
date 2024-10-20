@@ -319,15 +319,15 @@
               </Select>
             </FormGroup>
             <FormGroup legendText="Required Information">
-                <NumberInput label="Energy (kJ) per 100g or 100mL*" hideSteppers bind:value={energy} on:change={onFormChange} />
-                <NumberInput label="Sodium (mg) per 100g or 100mL*" hideSteppers bind:value={sodium} on:change={onFormChange} />
-                <NumberInput label="Saturated Fat (g) per 100g or 100mL*" hideSteppers bind:value={saturatedFat} on:change={onFormChange} />
-                <NumberInput label="Sugar (g) per 100g or 100mL*" hideSteppers bind:value={sugar} on:change={onFormChange} />
+                <NumberInput label="Energy (kJ) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={energy} on:change={onFormChange} />
+                <NumberInput label="Sodium (mg) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sodium} on:change={onFormChange} />
+                <NumberInput label="Saturated Fat (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={saturatedFat} on:change={onFormChange} />
+                <NumberInput label="Sugar (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sugar} on:change={onFormChange} />
             </FormGroup>
             <FormGroup legendText="Optional Information">
-                <NumberInput label="Fibre (g) per 100g or 100mL" allowEmpty hideSteppers bind:value={fibre} on:change={onFormChange} />
-                <NumberInput label="Protein (g) per 100g or 100mL" allowEmpty hideSteppers bind:value={protein} on:change={onFormChange} />
-                <NumberInput label="Percentage Fruit, Vegetable, Nut or Legume Content (%)" allowEmpty step={1} hideSteppers bind:value={percentageFruitVegetableNutLegumeContent} on:change={onFormChange} />
+                <NumberInput label="Fibre (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={fibre} on:change={onFormChange} />
+                <NumberInput label="Protein (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={protein} on:change={onFormChange} />
+                <NumberInput label="Percentage Fruit, Vegetable, Nut or Legume Content (%)" allowEmpty hideSteppers step={1} bind:value={percentageFruitVegetableNutLegumeContent} on:change={onFormChange} />
             </FormGroup>
             <FormGroup legendText="Contains Fruit, Vegetable, Nut or Legume">
                 <Checkbox id="checkbox-0" labelText="Fruit or Vegetable" bind:checked={containsFruitOrVegetable} on:change={onFormChange} />
