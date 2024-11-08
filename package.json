@@ -8,7 +8,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.5",
+		"@sveltejs/adapter-static": "^3.0.6",
 		"@sveltejs/kit": "^2.7.4",
 		"carbon-components-svelte": "^0.85.3",
 		"carbon-icons-svelte": "^12.12.0",
