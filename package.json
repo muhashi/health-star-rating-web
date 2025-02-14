@@ -14,7 +14,7 @@
 		"carbon-icons-svelte": "^12.13.0",
 		"svelte": "^5.20.0",
 		"svelte-star-rating": "^2.0.1",
-		"vite": "^5.4.9"
+		"vite": "^6.1.0"
 	},
 	"type": "module",
 	"dependencies": {
