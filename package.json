@@ -8,13 +8,13 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.8",
-		"@sveltejs/kit": "^2.17.1",
-		"carbon-components-svelte": "^0.87.3",
-		"carbon-icons-svelte": "^12.13.0",
-		"svelte": "^5.20.0",
+		"@sveltejs/adapter-static": "^3.0.9",
+		"@sveltejs/kit": "^2.36.2",
+		"carbon-components-svelte": "^0.89.6",
+		"carbon-icons-svelte": "^13.5.0",
+		"svelte": "^5.38.3",
 		"svelte-star-rating": "^2.0.1",
-		"vite": "^5.4.9"
+		"vite": "^7.1.3"
 	},
 	"type": "module",
 	"dependencies": {
