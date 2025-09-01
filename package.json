@@ -9,10 +9,10 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.9",
-		"@sveltejs/kit": "^2.36.2",
+		"@sveltejs/kit": "^2.37.0",
 		"carbon-components-svelte": "^0.89.6",
 		"carbon-icons-svelte": "^13.5.0",
-		"svelte": "^5.38.3",
+		"svelte": "^5.38.6",
 		"svelte-star-rating": "^2.0.1",
 		"vite": "^7.1.3"
 	},
