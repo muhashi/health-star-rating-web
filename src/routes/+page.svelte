@@ -286,7 +286,7 @@
     <div class="header-row">
         <div style="width: 32px"></div> <!-- dummy for spacing -->
         <div class="title">
-                <h1>Health Star Rating Calculator</h1>
+            <h1>Health Star Rating Calculator</h1>
             <p>Calculate and explain the <OutboundLink href="http://healthstarrating.gov.au/">Australian/New Zealand health star ratings</OutboundLink> of food.</p>
         </div>
         <Link href="https://github.com/muhashi/health-star-rating-web" target="_blank" style="color: black">
