@@ -101,7 +101,7 @@
         attributes = [];
     }
 
-    function onFormChange() {
+    $: {
         const nutritionalInformation = {
             energykJ: energy,
             sodiumMilligrams: sodium,
@@ -298,7 +298,7 @@
             e.preventDefault();
         }}>
             <FormGroup>
-              <Select id="food-type" labelText="Type of Food* (pick the category most specific to the food)" value="placeholder-item" bind:selected={foodType} on:change={onFormChange}>
+              <Select id="food-type" labelText="Type of Food* (pick the category most specific to the food)" value="placeholder-item" bind:selected={foodType}>
                 <SelectItem
                   disabled
                   hidden
@@ -319,19 +319,19 @@
               </Select>
             </FormGroup>
             <FormGroup legendText="Required Information">
-                <NumberInput label="Energy (kJ) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={energy} on:change={onFormChange} />
-                <NumberInput label="Sodium (mg) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sodium} on:change={onFormChange} />
-                <NumberInput label="Saturated Fat (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={saturatedFat} on:change={onFormChange} />
-                <NumberInput label="Sugar (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sugar} on:change={onFormChange} />
+                <NumberInput labelText="Energy (kJ) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={energy} />
+                <NumberInput labelText="Sodium (mg) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sodium} />
+                <NumberInput labelText="Saturated Fat (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={saturatedFat} />
+                <NumberInput labelText="Sugar (g) per 100g or 100mL*" inputmode="decimal" hideSteppers bind:value={sugar} />
             </FormGroup>
             <FormGroup legendText="Optional Information">
-                <NumberInput label="Fibre (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={fibre} on:change={onFormChange} />
-                <NumberInput label="Protein (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={protein} on:change={onFormChange} />
-                <NumberInput label="Percentage Fruit, Vegetable, Nut or Legume Content (%)" allowEmpty hideSteppers step={1} bind:value={percentageFruitVegetableNutLegumeContent} on:change={onFormChange} />
+                <NumberInput labelText="Fibre (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={fibre} />
+                <NumberInput labelText="Protein (g) per 100g or 100mL" inputmode="decimal" allowEmpty hideSteppers bind:value={protein} />
+                <NumberInput labelText="Percentage Fruit, Vegetable, Nut or Legume Content (%)" allowEmpty hideSteppers step={1} bind:value={percentageFruitVegetableNutLegumeContent} />
             </FormGroup>
             <FormGroup legendText="Contains Fruit, Vegetable, Nut or Legume">
-                <Checkbox id="checkbox-0" labelText="Fruit or Vegetable" bind:checked={containsFruitOrVegetable} on:change={onFormChange} />
-                <Checkbox id="checkbox-1" labelText="Nuts or Legumes" bind:checked={containsNutsOrLegumes} on:change={onFormChange} />
+                <Checkbox id="checkbox-0" labelText="Fruit or Vegetable" bind:checked={containsFruitOrVegetable} />
+                <Checkbox id="checkbox-1" labelText="Nuts or Legumes" bind:checked={containsNutsOrLegumes} />
             </FormGroup>
           </Form>
     </div>
