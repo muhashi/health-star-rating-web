@@ -10,7 +10,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.48.5",
-		"carbon-components-svelte": "^0.92.0",
+		"carbon-components-svelte": "^0.98.1",
 		"carbon-icons-svelte": "^13.6.0",
 		"svelte": "^5.43.7",
 		"svelte-star-rating": "^2.0.1",
