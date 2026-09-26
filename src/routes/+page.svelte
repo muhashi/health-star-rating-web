@@ -376,7 +376,7 @@
                     Based on the energy, sodium, saturated fat, and sugar contents, the food is awarded baseline points for each of the measures based on the following table:
                 </p>
                 <Accordion>
-                    <AccordionItem title="Baseline Points Table">
+                    <AccordionItem title={`Baseline Points Table for ${selectItemtoFoodNameMap[foodType]}`}>
                     <DataTable
                         headers={[
                         { key: "energy", value: "Energy (kJ / 100g)" },
