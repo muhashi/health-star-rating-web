@@ -9,12 +9,12 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.68.0",
-		"carbon-components-svelte": "^0.109.0",
-		"carbon-icons-svelte": "^13.12.0",
-		"svelte": "^5.56.4",
+		"@sveltejs/kit": "^2.70.3",
+		"carbon-components-svelte": "^0.112.1",
+		"carbon-icons-svelte": "^13.16.0",
+		"svelte": "^5.57.1",
 		"svelte-star-rating": "^2.0.1",
-		"vite": "^8.1.2"
+		"vite": "^8.3.1"
 	},
 	"type": "module",
 	"dependencies": {
